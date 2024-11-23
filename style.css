@@ -1,0 +1,84 @@
+/* CSS for Website Defaults */
+
+body {
+    font-family: "Work Sans", sans-serif;
+    font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+}
+
+a, a:hover, a:link, a:active, a:visited {
+    color: #ffb727;
+    text-decoration: none;
+}
+  
+.container {
+    text-align: center;
+}
+
+
+/* CSS for Section Headers */
+
+.section-header {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.section-header h3 {
+    font-size: 25px;
+}
+
+.section-header h1 {
+    font-size: 55px;
+}
+
+
+/* CSS for Links Section */
+
+#uni-links .row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#uni-links .link-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+#uni-links .link-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    padding: 15px;
+    border-radius: 10px;
+    background-color: rgba(255, 183, 39, 0.1);
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 350px;
+}
+
+#uni-links .link-item:hover {
+    background-color: rgba(255, 183, 39, 0.2);
+}
+
+#uni-links .link-item img {
+    width: 24px;
+    height: 24px;
+    padding-bottom: 0;
+}
+
+#uni-links .link-item p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    #uni-links .row > div {
+        margin-bottom: 20px;
+    }
+}
